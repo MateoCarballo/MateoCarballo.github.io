@@ -1,12 +1,12 @@
 /* Estilos del encabezado */
 header {
-    background-color: #24292e;
+    background-color: black;
     padding: 20px;
-    text-align: center;
-    color: white;
+    text-align: left;
   }
   
   header h1 {
+    color: orange;
     font-size: 36px;
   }
   
@@ -16,24 +16,26 @@ header {
     border-collapse: collapse;
   }
   
-  th, td {
+  th,
+  td {
     padding: 10px;
     text-align: center;
     border: 1px solid black;
   }
   
   th {
-    background-color: #24292e;
-    color: white;
+    background-color: black;
+    color: orange;
   }
   
   /* Estilos de la sección de recursos */
   section {
     margin: 20px auto;
-    text-align: center;
+    text-align: left;
   }
   
   section h2 {
+    color: orange;
     font-size: 24px;
   }
   
@@ -47,5 +49,69 @@ header {
     margin: 20px auto;
     max-width: 100%;
     height: auto;
+  }
+  
+  /* Estilos de la sección "Sobre mí" */
+  #about-me {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+  }
+  
+  #about-me h2 {
+    color: black;
+    font-size: 24px;
+  }
+  
+  #about-me ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #about-me li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de la sección "Habilidades y objetivos" */
+  #skills {
+    background-color: black;
+    color: orange;
+    padding: 20px;
+  }
+  
+  #skills h2 {
+    font-size: 24px;
+  }
+  
+  /* Estilos de la sección "Materias que estoy cursando" */
+  #repositories {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+  }
+  
+  #repositories h2 {
+    font-size: 24px;
+  }
+  
+  #repositories td:first-child {
+    text-align: left;
+  }
+  
+  #repositories td:last-child {
+    text-align: center;
+  }
+  
+  /* Estilos de la sección "Contacto" */
+  #contact {
+    background-color: black;
+    color: orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact p {
+    margin: 0;
   }
   

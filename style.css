@@ -1,0 +1,51 @@
+/* Estilos del encabezado */
+header {
+    background-color: #24292e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  /* Estilos de las tablas */
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #24292e;
+    color: white;
+  }
+  
+  /* Estilos de la sección de recursos */
+  section {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 24px;
+  }
+  
+  section table {
+    margin: 0 auto;
+  }
+  
+  /* Estilos de la imagen */
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
